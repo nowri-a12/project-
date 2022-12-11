@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artificer"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#at your doorstep"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:layout_below="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignRight="@+id/text1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/hireButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hire"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="#FFF"
+            android:background="@drawable/main_bg"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/workButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="#fff"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

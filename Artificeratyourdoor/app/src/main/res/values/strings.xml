@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Artificer at your door</string>
+
+    <string name="btn_link_to_register">New User? Register now</string>
+    <string name="title">Work Type</string>
+    <string-array name="works_array">
+        <item>Work Type</item>
+        <item>TV</item>
+        <item>Refrigerator</item>
+        <item>AC</item>
+        <item>Water Line</item>
+        <item>Furniture repair</item>
+        <item>Painting</item>
+        <item>PC services</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What Do You Want"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/work_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/tv1"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where Do You Want"
+        android:layout_below="@+id/work_spinner"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:textColor="#000"
+        android:text="Select Location"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/tv2"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_baseline_location_on_24" />
+</RelativeLayout>

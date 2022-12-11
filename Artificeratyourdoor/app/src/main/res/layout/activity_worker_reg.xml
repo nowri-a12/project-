@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activities.WorkerRegActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/main_bg"
+            android:gravity="center"
+            android:text="Register"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="40sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <EditText
+                    android:id="@+id/worker_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="NAME"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+
+                <Spinner
+                    android:id="@+id/work_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp" />
+
+                <EditText
+                    android:id="@+id/worker_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="EMAIL"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/worker_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="PHONE"
+                    android:inputType="phone"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/worker_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="PASSWORD"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/worker_re_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="PASSWORD"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/location_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="#FFF"
+                    android:drawableStart="@drawable/ic_baseline_location_on_24"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:padding="10dp"
+                    android:text="Select Location"
+                    android:textAllCaps="false"
+                    android:textColor="#000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/choose_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="#FFF"
+                    android:drawableStart="@drawable/ic_user_thumbnail"
+                    android:drawableLeft="@drawable/ic_user_thumbnail"
+                    android:padding="10dp"
+                    android:text="Choose Photo"
+                    android:textAllCaps="false"
+                    android:textColor="#000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/registerButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/main_bg"
+                    android:text="Register"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

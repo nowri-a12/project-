@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627047031837",
+    "project_id": "artificer-at-your-door",
+    "storage_bucket": "artificer-at-your-door.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627047031837:android:a83b6196ae93f88296d2f4",
+        "android_client_info": {
+          "package_name": "com.myapp.craftsman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627047031837-4micn8sd1q6tvid0kvu6ph1tnsnftjqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVIrnDagb8nvPvICWTC0MmCjEzMjF-P2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627047031837-4micn8sd1q6tvid0kvu6ph1tnsnftjqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
